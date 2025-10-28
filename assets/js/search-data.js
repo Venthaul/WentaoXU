@@ -412,25 +412,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/WentaoXU/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/WentaoXU/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-personal-web-page-launched-sparkles-smile",
+          title: 'Personal web-page launched! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-conformational-dynamics-of-spike-protein",
           title: 'Conformational Dynamics of Spike Protein',
-          description: "The open-close conformational equilibrium of the SARS-CoV-2 spike protein undergone evolution as the virus has evolved.",
+          description: "The open-close conformational landscape of the SARS-CoV-2 spike protein undergone evolution as the virus has evolved.",
           section: "Projects",handler: () => {
               window.location.href = "/WentaoXU/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-gaba-at-inhibitor-design",
+          title: 'GABA-AT inhibitor design',
+          description: "Using binding free energy calculation to guide drug design. A set of AI tools are examed and intergrated in workflow.",
           section: "Projects",handler: () => {
               window.location.href = "/WentaoXU/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
