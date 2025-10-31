@@ -430,41 +430,21 @@ ninja.data = [{
           description: "Using binding free energy calculation to guide drug design. A set of AI tools are examed and intergrated in workflow.",
           section: "Projects",handler: () => {
               window.location.href = "/WentaoXU/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-disorder-region-and-llps",
+          title: 'Disorder region and LLPS',
+          description: "There are a large number of flexible regions on the spike protein. How these flexible regions affect the function of spike (including RBD-ACE2 binding and conformational dynamics) is a topic worthy of study.",
           section: "Projects",handler: () => {
               window.location.href = "/WentaoXU/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-g-quadruplex-folding-and-drug-design",
+          title: 'G-quadruplex folding and drug design',
+          description: "NMR experimental evidence indicates that G-quadruplex can bind to small molecules. However, the conventional &quot;structure-based drug design&quot; approach cannot effectively identify the binding sites. We speculate that small molecules might have interfered with the formation process of the G-quadruplex.",
           section: "Projects",handler: () => {
               window.location.href = "/WentaoXU/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-the-membrane-fusion-process-mediated-by-spike-proteins",
+          title: 'The membrane fusion process mediated by spike proteins',
+          description: "The latest cryo-ET experiment explains multiple spike protein-mediated membrane fusion processes, and the pore structure in it suggests a new mechanism of membrane fusion. Coarse-grained models are effective tools for studying this process.",
           section: "Projects",handler: () => {
               window.location.href = "/WentaoXU/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/WentaoXU/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/WentaoXU/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/WentaoXU/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/WentaoXU/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
