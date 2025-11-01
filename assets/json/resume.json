@@ -22,17 +22,6 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Chemistry Department, Hong Kong University of Science and Technology",
-      "position": "PhD Candidate",
-      "url": "",
-      "startDate": "2022-09-01",
-      "endDate": "2026-09-01",
-      "summary": "",
-      "highlights": ["Molecular Modelling" , "Lab workstation operation and maintenance"]
-    }
-  ],
 
   "education": [
     {
@@ -44,19 +33,28 @@
       "startDate": "2018-09-01",
       "endDate": "2022-09-01",
       "score": "73.1/100, UK system"
+    },
+        {
+      "institution": "The Hong Kong University of Science and Technology",
+      "location": "Hong Kong",
+      "url": "https://hkust.edu.hk/zh-hant",
+      "area": "Chemistry",
+      "studyType": "PhD",
+      "startDate": "2022-09-01",
+      "endDate": "2026-09-01"
     }
   ],
   "publications": [
     {
       "name": "Dynamic expedition of leading mutations in SARS-CoV-2 spike glycoproteins",
-      "publisher": "Elsevier,Computational and Structural Biotechnology Journal",
+      "publisher": "Computational and Structural Biotechnology Journal",
       "releaseDate": "2024-12",
       "url": "https://www.sciencedirect.com/science/article/pii/S2001037024001843",
       "summary": "In this paper, undertake the tasks of data processing, image drawing and code organization."
     },
     {
       "name": "Evolutionary Aspect of Spike Glycoprotein's Conformational Dynamics",
-      "publisher": "Elsevier, Journal of Molecular Biology",
+      "publisher": "Journal of Molecular Biology",
       "releaseDate": "Under review",
       "url": "",
       "summary": "I was fully responsible for this paper, from the topic proposal, method design, data processing to article writing. The kinetic properties of the S protein were characterized by enhanced sampling and the evolution of these properties along the viral evolutionary trajectory was demonstrated."
