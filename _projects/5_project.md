@@ -21,7 +21,7 @@ To give your project a background in the portfolio page, just add the img tag to
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0" style="max-width: 800px; margin-left: auto; margin-right: auto;">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/project5/fusion2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

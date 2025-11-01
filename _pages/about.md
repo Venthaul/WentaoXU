@@ -27,13 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in computational chemistry at the Hong Kong University of Science and Technology. My research stems from my fascination with the complex and exquisite "dances" of biological macromolecules. 
+I am a PhD candidate in computational chemistry at the Hong Kong University of Science and Technology. My research stems from my fascination with the complex and exquisite "dances" of biological macromolecules. 
 
 
-The dynamic nature of proteins, particularly how they perform functions by altering their own shapes. To "observe" these conformational changes at high resolution, I use molecular dynamics (MD) simulations as my "computational microscope". In studies of systems such as the **spike protein** of the coronavirus, **G-quadruplex** and **GABA aminotransferase**, I focus on identifying transient states and hidden pockets that are crucial for drug design or antibody design. This work requires a comprehensive technical stack, including proficient use of **GROMACS** and **PLUMED**, mastery of enhanced sampling methods, and the use of Python to build customized analysis workflows. 
+The dynamic nature of proteins, particularly how they perform functions by altering their own shapes. To "observe" these conformational changes at high resolution, I use molecular dynamics (MD) simulations as my "computational microscope". In studies of systems such as the **spike protein** of the coronavirus, **G-quadruplex** and **GABA aminotransferase**, I focus on identifying transient states and hidden pockets that are crucial for drug design or antibody design. This work requires a comprehensive technical stack, including proficient use of **GROMACS** and **PLUMED**, mastery of enhanced sampling methods, and the use of Python to build customized and user-friendly analysis workflows. 
 
 
 In my future scientific career, I plan to conduct research on intermolecular interactions, protein folding, membrane fusion process and AI-assisted drug design strategies by integrating data from both wet and dry experiments.
-
-
-[Test]({% link _pages/cv.md %})
