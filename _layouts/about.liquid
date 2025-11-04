@@ -78,3 +78,98 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+
+<!-- Lightbox Structure (initially hidden) -->
+<div id="lightbox-overlay" style="display: none;">
+  <span id="lightbox-close">&times;</span>
+  <img id="lightbox-image" src="" alt="Lightbox Image">
+</div>
+
+<style>
+  /* Lightbox Overlay */
+  #lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  /* Lightbox Image */
+  #lightbox-image {
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    border-radius: 5px;
+  }
+
+  /* Close Button */
+  #lightbox-close {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    line-height: 1;
+  }
+
+  /* Style for the trigger link to indicate it's special */
+  .lightbox-trigger {
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const lightboxOverlay = document.getElementById('lightbox-overlay');
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const triggerLinks = document.querySelectorAll('.lightbox-trigger');
+
+    function openLightbox(imageUrl) {
+      lightboxImage.setAttribute('src', imageUrl);
+      lightboxOverlay.style.display = 'flex';
+      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    }
+
+    function closeLightbox() {
+      lightboxOverlay.style.display = 'none';
+      lightboxImage.setAttribute('src', ''); // Clear src to stop loading
+      document.body.style.overflow = 'auto'; // Restore scrolling
+    }
+
+    triggerLinks.forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+        const imageUrl = this.getAttribute('href');
+        openLightbox(imageUrl);
+      });
+    });
+
+    // Close lightbox by clicking on the overlay or the close button
+    lightboxOverlay.addEventListener('click', function(event) {
+      if (event.target === lightboxOverlay || event.target === lightboxClose) {
+        closeLightbox();
+      }
+    });
+
+    // Close lightbox with the Escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape' && lightboxOverlay.style.display === 'flex') {
+        closeLightbox();
+      }
+    });
+  });
+</script>
