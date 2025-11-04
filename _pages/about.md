@@ -9,9 +9,9 @@ profile:
   image: Figure_White.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <a href="{{ 'assets/img/wechat.jpg' | relative_url }}" class="lightbox-trigger">WeChat: RM-xwt</a>
-    <p>Email: wxubq@connect.ust.hk</p>
-    <p>Whatsapp: 852 62143835</p>
+    <p style="text-align: center;">Wentao XU / Venthaul ZI, 徐文韜</p>
+    <p style="text-align: center;">Soochow, 蘇州</p>
+
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -35,4 +35,8 @@ The dynamic nature of proteins, particularly how they perform functions by alter
 
 In my future scientific career, I plan to conduct research on intermolecular interactions, protein folding, membrane fusion process and AI-assisted drug design strategies by integrating data from both wet and dry experiments.
 
+Contact me:
+
 <a href="{{ 'assets/img/wechat.jpg' | relative_url }}" class="lightbox-trigger">WeChat: RM-xwt</a>
+<p>Email: wxubq@connect.ust.hk</p>
+<p>Whatsapp: 852 62143835</p>
