@@ -23,28 +23,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/WentaoXU/cv/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Materials for courses you taught.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/WentaoXU/people/";
+            window.location.href = "/WentaoXU/teaching/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/WentaoXU/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/WentaoXU/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
