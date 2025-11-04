@@ -9,9 +9,9 @@ profile:
   image: Figure_White.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <a href="{{ 'assets/img/wechat.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer">WeChat: RM-xwt</a>
+    <p>Email: wxubq@connect.ust.hk</p>
+    <p>Whatsapp: 852 62143835</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -34,3 +34,5 @@ The dynamic nature of proteins, particularly how they perform functions by alter
 
 
 In my future scientific career, I plan to conduct research on intermolecular interactions, protein folding, membrane fusion process and AI-assisted drug design strategies by integrating data from both wet and dry experiments.
+
+<a href="{{ 'assets/img/wechat.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer">WeChat: RM-xwt</a>。
