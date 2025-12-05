@@ -4,7 +4,7 @@ title: Disorder region and LLPS
 description: There are a large number of flexible regions on the spike protein. How these flexible regions affect the function of spike (including RBD-ACE2 binding and conformational dynamics) is a topic worthy of study.
 img: assets/img/project3/intro_disorder.png
 importance: 3
-category: work
+category: fun
 ---
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
